@@ -1,2 +1,2 @@
-Type "run go players.go" on your terminal
-Access localhost:8080/palyers with method POST
+Type "go run players.go" on your terminal
+Access localhost:8765/players with method POST

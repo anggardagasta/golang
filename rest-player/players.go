@@ -68,6 +68,6 @@ func main() {
     http.HandleFunc("/players", players)
     http.HandleFunc("/player", player)
 
-    fmt.Println("starting web server at http://localhost:8080/")
-    http.ListenAndServe(":8080", nil)
+    fmt.Println("starting web server at http://localhost:8765/")
+    http.ListenAndServe(":8765", nil)
 }
